@@ -1,0 +1,29 @@
+.name {
+    display:flex;
+    margin-left:50%;
+    transform: translateX(-50%);
+    color: #FFF;
+}
+
+
+
+@keyframes pop {
+    from {
+        transform: translateY(-3px);
+    }
+    to {
+        transform: translateY(3px);
+
+    }
+}
+
+
+@media (min-width:767px) and (max-width: 991px) {
+
+    .name {
+        margin-left: 65%;
+        color: #222;
+
+    }
+
+}

@@ -1,0 +1,21 @@
+@blue:rgb(52,152,213);
+@grey:#999;
+
+div {
+    background: @blue;
+    color:@grey;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+@keyframes spin {
+    0% {
+        transform: rotate(30deg);
+    }
+    100% {
+        transform: rotate(150deg);
+    }
+}

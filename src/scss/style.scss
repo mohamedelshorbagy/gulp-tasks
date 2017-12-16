@@ -1,0 +1,23 @@
+$color:rgb(231,70,67);
+
+body {
+    color:$color;
+    background-color:rgb(52,204,113);
+    transform:translateX(-50%);
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+    .container {
+        width: 991px;
+    }
+}
+
+
+@keyframes spin {
+    from {
+        transform: translate(-20px);
+    } 
+    to {
+        transform: translate(-50px);
+    }
+}
